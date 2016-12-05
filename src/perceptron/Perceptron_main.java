@@ -5,7 +5,7 @@ public class Perceptron_main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-        double nu[] = {0.35,0.2};
+        double nu[] = {0.65,0.2};
         Perceptron_lib plib = new Perceptron_lib(2,nu,0.01,0.5);
         
          double input[][] = {{1,1},{1,0},{0,1},{0,0}};
